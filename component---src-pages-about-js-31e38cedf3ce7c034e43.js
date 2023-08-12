@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_funda=self.webpackChunkgatsby_funda||[]).push([[682],{5465:function(e,a,u){u.r(a);var t=u(7294);a.default=()=>t.createElement("p",null,"About Page")}}]);
+//# sourceMappingURL=component---src-pages-about-js-31e38cedf3ce7c034e43.js.map
