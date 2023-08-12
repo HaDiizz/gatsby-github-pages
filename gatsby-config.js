@@ -3,8 +3,18 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `gatsby-funda`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: 'Getting started with Gatsby'
   },
-  plugins: ["gatsby-plugin-postcss"]
+  plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/src/images`,
+      },
+    },
+  ]
 };
