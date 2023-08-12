@@ -3,8 +3,9 @@
  */
 module.exports = {
   siteMetadata: {
-    title: 'Getting started with Gatsby'
+    title: 'Getting started with Catty'
   },
+  pathPrefix: "/gatsby-github-pages",
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
